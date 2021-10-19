@@ -1,0 +1,16 @@
+
+body { background-color: #000000;
+       color: #FFFFFF;}
+
+nav a:link { color: #FFFFFF; }
+
+
+a:link, a:visited {
+ background-color: #000000;
+ color: white;
+ padding: 20px 50px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+}
+ 
