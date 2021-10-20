@@ -1,9 +1,12 @@
 
+
 body { background-color: #000000;
-       color: #FFFFFF;}
+       color: #FFFFFF;
+       font-family: Courier monospace;}
 
-nav a:link { color: #FFFFFF; }
-
+nav a:link { color: #FFFFFF;
+            }
+nav a:hover { color: #858c8c}
 
 a:link, a:visited {
  background-color: #000000;
@@ -13,4 +16,21 @@ a:link, a:visited {
  text-decoration: none;
  display: inline-block;
 }
- 
+
+
+h1 { text-align: center;
+     background-color: #de2514;
+     color: #ffc04a}
+h4 { text-align: center;}
+a { text-align: center;
+    text-shadow: }
+
+.center { display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width:70%; }
+
+
+#wrapper { width: 600px;
+           margin-left: auto;
+           margin-right: auto;}
