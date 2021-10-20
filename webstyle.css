@@ -15,7 +15,7 @@ a:link, a:visited {
  text-align: center;
  text-decoration: none;
  display: inline-block;
-}
+} 
 
 
 h1 { text-align: center;
@@ -34,3 +34,46 @@ a { text-align: center;
 #wrapper { width: 600px;
            margin-left: auto;
            margin-right: auto;}
+
+
+/*media queries */
+@media only screen and (max-width: 1024px){
+  main {margin: 0px;}
+  body {margin: 0px;}
+
+
+
+  body { background-color: #000000;
+         color: #FFFFFF;
+         font-family: Courier monospace;}
+
+  nav a:link { color: #FFFFFF;
+              }
+  nav a:hover { color: #858c8c}
+
+  a:link, a:visited {
+   background-color: #000000;
+   color: white;
+   padding: 20px 50px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+  }
+
+
+  h1 { text-align: center;
+       background-color: #de2514;
+       color: #ffc04a}
+  h4 { text-align: center;}
+  a { text-align: center;
+      text-shadow: }
+
+  .center { display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:70%; }
+
+
+  #wrapper { width: 600px;
+             margin-left: auto;
+             margin-right: auto;}
